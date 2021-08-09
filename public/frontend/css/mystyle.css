@@ -1,0 +1,230 @@
+
+/* Theme color : #3d5af1 */
+/* Background Color: #f0f0f0 */
+/* Font Color : #212529; */
+
+
+
+body{
+    background-color: #f0f0f0;
+}
+
+
+a{
+    text-decoration: none;
+    color: #212529;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #3d5af1;
+    cursor: pointer;
+}
+
+
+/* Sweet Alert Button */
+
+
+.swal2-styled.swal2-confirm{
+background-color: #3d5af1!important;
+}
+
+
+
+/* Header Menu */
+.header-menu{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+
+
+.header-menu i{
+    font-size: 18px;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-menu a:hover{
+    color:#3d5af1 ;
+}
+
+
+
+
+/* Bottom Menu */
+.bottom-menu{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.bottom-menu p{
+    font-size: 14px;
+}
+
+
+
+.bottom-menu i{
+    font-size: 18px;
+}
+
+.bottom-menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.bottom-menu a:hover{
+    color:#3d5af1 ;
+}
+
+
+/* Scan Tab */
+
+.scan-tab{
+
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner{
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: glow 3s infinite;
+}
+
+
+
+/* animtaion */
+
+@keyframes glow {
+    0%   {box-shadow: 0px 0px -15px #3d5af1 ;}
+    25%  {box-shadow: 0px 0px 10px #3d5af1 ;}
+    50%  {box-shadow: 0px 0px 10px #3d5af1;}
+    100% {box-shadow: 0px 0px -15px #3d5af1;}
+    
+  }
+
+
+
+
+/* Content */
+
+.content{
+    margin: 60px 0px 60px 0px;
+    /* margin-bottom: 80px; */
+}
+
+/* Profile */
+
+.pwchange-pic img{
+    width: 150px;
+    height: auto;
+}
+
+.profile img{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+/* wallet */
+
+.my-card .balance{
+
+    font-size: 15px;
+}
+
+.wallet .card{
+    border-radius: 10px;
+}
+
+
+/* Home */
+
+.home img{
+    width: 20px;
+}
+
+
+/* Transaction */
+
+.trans:hover{
+    
+    color: #000;
+}
+
+.trans-detail img{
+
+    width: 60px;
+}
+
+.trans-detail p{
+    margin-bottom: 0px;
+}
+
+.transactions .card{
+    border-radius: 10px;
+}
+
+
+/* QR */
+
+.scan-pay img{
+    width: 150px;
+}
+
+.scan-btn img{
+    width: 30px;
+}
+
+
+/* Notification */
+
+.notifications-detail img{
+    width: 200px;
+}
+
+
+.unread_noti_count{
+    position: absolute;
+    padding: 3px;
+    top: -3px
+}
+
+.notifications img{
+    width: 30px;
+}
+
+.notifications .bg-noti{
+    background-color:#80808011;
+}
+
+
